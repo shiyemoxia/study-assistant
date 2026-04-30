@@ -1,0 +1,61 @@
+{
+  "projectName": "课程知识库与代码学习助手",
+  "demoNotice": "Demo data only",
+  "stats": {
+    "documents": 26,
+    "parsedDocuments": 21,
+    "qaCount": 148,
+    "codeAnalysisCount": 39,
+    "reviewTasks": 7,
+    "storageUsed": "2.4 GB / 10 GB"
+  },
+  "documents": [
+    {
+      "name": "分布式计算复习提纲.pdf",
+      "type": "PDF",
+      "category": "课程资料",
+      "uploadedAt": "今天 10:24",
+      "status": "已解析",
+      "tags": ["分布式", "复习"]
+    },
+    {
+      "name": "Spark实验指导.docx",
+      "type": "DOCX",
+      "category": "实验文档",
+      "uploadedAt": "昨天 16:35",
+      "status": "已解析",
+      "tags": ["Spark", "实验"]
+    },
+    {
+      "name": "Scala语法整理.md",
+      "type": "MD",
+      "category": "学习笔记",
+      "uploadedAt": "昨天 09:12",
+      "status": "解析中",
+      "tags": ["Scala", "语法"]
+    },
+    {
+      "name": "大数据系统设计.pptx",
+      "type": "PPTX",
+      "category": "课程资料",
+      "uploadedAt": "05-27 14:20",
+      "status": "待处理",
+      "tags": ["系统设计", "大数据"]
+    }
+  ],
+  "questions": [
+    {
+      "question": "请解释 HDFS 的 NameNode 和 DataNode 有什么区别？",
+      "answer": "NameNode 是 HDFS 的控制中心，负责管理文件系统命名空间、元数据和数据块映射；DataNode 负责存储实际数据块，并向 NameNode 汇报状态。"
+    },
+    {
+      "question": "MapReduce 的设计思想是什么？",
+      "answer": "MapReduce 将大规模数据处理任务拆分为 Map 和 Reduce 两个阶段，通过分布式并行执行完成数据处理。"
+    }
+  ],
+  "codeExample": {
+    "language": "Scala",
+    "topic": "Spark RDD WordCount",
+    "filename": "WordCount.scala"
+  }
+}
